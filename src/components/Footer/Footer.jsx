@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.scss";
-import logoImg from "../../assets/images/logo.svg";
+import logoImg from "../../assets/images/logow.svg";
 import phone from "../../assets/images/icon-phone.svg";
 import location from "../../assets/images/icon-location.svg";
 import email from "../../assets/images/icon-email.svg";
