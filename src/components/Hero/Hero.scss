@@ -1,0 +1,88 @@
+.hero {
+  background-image: url(../../assets/images/bg-hero-mobile.svg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  header {
+    width: 89%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo{
+      max-width: 126px;
+    }
+    .btn{
+      padding: 8px 28px;
+      font-size: 12px;
+    }
+  }
+  
+  .hero__wrapper{
+    padding: 6.25rem 0 2.5rem 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 85%;
+    .cta__text{
+      display: flex;
+      flex-direction: column;
+      h1{
+        padding-bottom: 1.6rem;
+      }
+      p{
+        padding-bottom: 1.6rem;
+        line-height: 1.6;
+      }
+      .btn--secondary{
+        padding: 1rem;
+        border-radius: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1.6rem;
+      }
+    }   
+  }
+}
+
+
+@media screen and (min-width:"950px"){
+  .hero{   
+    // background-color: red;
+    background-image: url(../../assets/images/bg-hero-desktop.svg);
+    // width: 100%;
+    header {
+      margin: 0 auto;
+      .logo{
+        max-width: 12.5rem;
+      }
+    }
+    .hero__wrapper {
+      display: flex;
+      padding-block: 4.25rem;
+      align-items: center;
+      justify-content: space-between;
+      
+      .cta__text {
+        text-align: start;
+        max-width: 32rem;    
+        h1{
+          font-size: 2.4rem;
+        }
+        p{
+          font-size: 18px;
+          color: var(--Very-Dark-Cyan);
+        }
+      }
+      .btn--secondary {
+        padding: 1.4rem 0;
+        border-radius: 2rem;
+        max-width: 16.25rem;
+      }       
+      img {
+        max-width: 41.25rem;
+      }
+    }
+
+  }
+}
